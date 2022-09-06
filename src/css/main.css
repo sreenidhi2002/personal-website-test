@@ -1,1 +1,30 @@
 /* Your CSS here. */
+
+body {
+    color: white;
+}
+
+.overall {
+    background: mediumpurple;
+    height: 600px;
+    width: 750px;
+    align-self: center;
+}
+
+.picture_sizing {
+    text-align: center;
+    height: 150px;
+    width: 150px;
+    padding-top: 20px;
+}
+
+
+.centered {
+    text-align: center;
+}
+
+.text_paragraph {
+    text-align: left;
+    padding-left: 30px;
+    padding-right: 30px;
+}
