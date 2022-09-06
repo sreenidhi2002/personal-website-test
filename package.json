@@ -4,7 +4,7 @@
   "description": "CS498RK MP0",
   "scripts": {
     "build": "export NODE_OPTIONS=--openssl-legacy-provider; webpack",
-    "start": "webpack-dev-server --open",
+    "start": "export NODE_OPTIONS=--openssl-legacy-provider; webpack-dev-server --open",
     "watch": "export NODE_OPTIONS=--openssl-legacy-provider; webpack --watch"
   },
   "keywords": [],
